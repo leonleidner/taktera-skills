@@ -11,6 +11,11 @@ Single source of truth for ALL visual design in taktera. Every UI component, eve
 
 **Core principle:** If it's visible on screen, it follows these rules.
 
+## External References
+
+- `references/image-to-code.md` — Image-first website design workflow (from taste-skill). Use when building landing pages, marketing sites, or premium visual frontends. Key rules: generate design images first, analyze deeply, then implement. No lazy under-generation.
+- `references/brandkit.md` — Premium brand identity generation patterns (from taste-skill). Use for brand-guidelines boards, logo systems, visual identity. Defines quality bar for premium visual output.
+
 ## When to Use
 
 - Building any new UI component or screen

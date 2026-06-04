@@ -224,6 +224,11 @@ Changes:
 3. Check if it's a real bug (fix the bug)
 4. Never disable tests to make gates pass
 
+## References
+
+- `references/karpathy-guidelines.md` — Behavioral rules: think before coding, simplicity, surgical changes, goal-driven execution
+- `references/output-enforcement.md` — No truncated output, no `// ...` placeholders, complete code only
+
 ## Vault Documentation
 
 After completing a feature, update the Vault:

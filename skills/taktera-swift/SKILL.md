@@ -11,7 +11,21 @@ Swift and SwiftUI coding standards for taktera's iOS components. Covers general 
 
 **Related skills:** `taktera-design-system` (UI consistency), `taktera-feature-development` (TDD process)
 
-## When to Use
+## External References (from SwiftUI-Agent-Skill by Paul Hudson)
+
+These references are loaded from the [SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) repo and provide deep best-practice reviews:
+
+- `references/api.md` — Modern SwiftUI API usage, deprecated API replacements
+- `references/views.md` — View structure, composition, animation best practices
+- `references/data.md` — Data flow, shared state, property wrappers
+- `references/navigation.md` — NavigationStack, alerts, sheets, confirmation dialogs
+- `references/accessibility.md` — Dynamic Type, VoiceOver, Reduce Motion
+- `references/performance.md` — SwiftUI performance optimization
+- `references/design.md` — Apple Human Interface Guidelines compliance
+- `references/hygiene.md` — Code cleanliness, maintainability
+- `references/swift.md` — Modern Swift concurrency, Swift 6.2+ patterns
+
+> Load the relevant reference file when doing a code review or when the topic applies.
 
 - Writing new Swift/SwiftUI views for taktera-ios
 - Modifying existing iOS code
