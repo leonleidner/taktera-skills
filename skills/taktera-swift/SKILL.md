@@ -460,6 +460,8 @@ db.settings = settings
 5. **No error states** — Every async operation needs error handling
 6. **Massive Views** — Extract subviews when body exceeds ~100 lines
 7. **No accessibility** — Add `.accessibilityLabel()` to interactive elements
+8. **Repository as @State** — Repositories with listeners MUST be Singletons (`static let shared`), never `@State` in Views. Multiple instances = duplicate listeners, stale data, race conditions.
+9. **Firestore listener leaks** — Always use `[weak self]` in snapshot listeners. Always stop previous listeners before starting new ones.
 
 ## Iterative Improvement
 
